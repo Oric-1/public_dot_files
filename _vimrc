@@ -1,4 +1,6 @@
 filetype plugin indent on
+set foldmethod=syntax
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Vundle settings
@@ -17,6 +19,7 @@ filetype off                   " required!
   Bundle 'ctrlp.vim'
   Bundle 'vimwiki'
   Bundle 'plasticboy/vim-markdown'
+  Bundle 'vim-markdown-folding'
 "  Bundle 'vim-orgmode'
 "  Bundle 'LaTeX-Suite-aka-Vim-LaTeX'  
   Bundle 'gmarik/vundle'
