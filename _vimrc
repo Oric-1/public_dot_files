@@ -17,8 +17,9 @@ filetype off                   " required!
   Bundle 'ctrlp.vim'
   Bundle 'vimwiki'
   Bundle 'plasticboy/vim-markdown'
+"  Bundle 'vim-orgmode'
 "  Bundle 'LaTeX-Suite-aka-Vim-LaTeX'  
-"  Bundle 'gmarik/vundle'
+  Bundle 'gmarik/vundle'
 "  Bundle 'UltiSnips'
 "  Bundle 'VimOutliner'
 "  Bundle 'vimoutliner-colorscheme-fix'
@@ -277,7 +278,8 @@ if has("gui_running")
 	"set lines=50       " height = 50 lines
 	"set columns=100        " width = 100 columns
 	"  This is mine though
-	set guifont=Inconsolata 
+	"  set guifont=Inconsolata 
+	set guifont=consolas 
 	"colorscheme nuvola    " use this color scheme
 	set background=light        " adapt colors for background
 
